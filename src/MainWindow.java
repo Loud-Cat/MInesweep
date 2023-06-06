@@ -14,8 +14,8 @@ public class MainWindow extends JFrame {
 	private JPanel container;
 	private Cell[][] grid;
 
-	final static int ROWS = 16;
-	final static int COLS = 16;
+	static final int ROWS = 16;
+	static final int COLS = 16;
 
 	public MainWindow() {
 		super("Minesweep");
